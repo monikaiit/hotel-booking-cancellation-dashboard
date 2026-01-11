@@ -1,50 +1,76 @@
-# Hotel Booking Cancellation Dashboard (Excel)
+# Customer Churn Analysis (EDA Project)
 
 ## 📌 Project Overview
-This project is an interactive Excel dashboard designed to analyze hotel booking and cancellation data.
-The dashboard provides clear insights into booking patterns, guest behavior, hotel types, and seasonal trends,
-helping stakeholders understand factors affecting cancellations.
+This project focuses on analyzing customer churn using exploratory data analysis (EDA) techniques in Python.  
+The objective is to understand customer behavior, identify key factors contributing to churn, and derive data-driven insights that can help improve customer retention.
+
+---
 
 ## 🎯 Objectives
-- Analyze total bookings and cancellation rates
-- Compare City Hotel and Resort Hotel performance
-- Understand guest-type behavior (Couples, Family, Single)
-- Identify monthly and seasonal cancellation trends
-- Analyze desired vs undesired room allocation
+- Analyze overall customer churn rate  
+- Identify churn patterns across customer tenure and contract types  
+- Study the impact of services and customer support on churn behavior  
+- Extract actionable insights to reduce churn and improve retention  
+
+---
+
+## 📂 Dataset Description
+The dataset contains customer-level information related to:
+- Contract type  
+- Customer tenure  
+- Internet service type  
+- Payment method  
+- Support and security services  
+- Demographic attributes  
+
+The target variable is **Churn**, indicating whether a customer has discontinued the service.
+
+---
+
+## 🛠 Tools & Technologies Used
+- **Python**
+- **Pandas** – Data manipulation and analysis  
+- **NumPy** – Numerical computations  
+- **Matplotlib / Seaborn** – Data visualization  
+- **Jupyter Notebook**
+
+---
+
+## 🔍 Methodology
+- Loaded and inspected the dataset to understand structure, data types, and missing values  
+- Cleaned the data by handling null values and correcting inconsistencies  
+- Performed exploratory data analysis (EDA) using aggregation, grouping, and visualizations  
+- Analyzed churn behavior across multiple features such as tenure, contract type, services, and payment methods  
+
+---
 
 ## 📊 Key Insights
-- Higher cancellation rates observed in City Hotels compared to Resort Hotels
-- Couples contribute the highest number of bookings and cancellations
-- Peak cancellations occur during specific months indicating seasonality
-- Desired room bookings show significantly lower cancellation rates
+- Overall churn rate is approximately **26.5%**, indicating a significant retention challenge  
+- Highest churn observed among **month-to-month contract customers**  
+- Customers in the **early tenure period (1–2 months)** show higher churn rates  
+- Lack of **tech support, online security, device protection, and backup services** is strongly associated with higher churn  
 
-## 🛠 Tools & Techniques Used
-- Microsoft Excel
-- Pivot Tables and Pivot Charts
-- Slicers for interactive filtering
-- Conditional Formatting
-- KPI Cards
-- Data Cleaning and Data Analysis
+---
 
-## 📈 Dashboard Features
-- Interactive year-wise filtering using slicers
-- KPI cards for total bookings and total cancellations
-- Multiple charts for hotel type, guest type, and monthly analysis
-- Clean, visually appealing, and user-friendly layout
+## 💡 Business Recommendations
+- Improve onboarding experience for new customers  
+- Promote support and security services to reduce churn  
+- Encourage long-term contracts to improve customer retention  
+- Focus retention strategies on high-risk customer segments  
 
-## 🖼 Dashboard Preview
-[![Dashboard Preview](Dashboard.png)](Dashboard.png)
+---
 
-## 📂 Files Included
-- `Hotel_Booking_Dashboard.xlsx` – Excel dashboard file  
-- `Dashboard.png` – Dashboard screenshot  
-- `hotel_bookings.csv` – Dataset used  
-- `README.md` – Project documentation  
+## 📌 Learnings
+- Gained hands-on experience in Python-based exploratory data analysis  
+- Improved ability to interpret data patterns and business implications  
+- Strengthened skills in data visualization and analytical storytelling  
 
-## 💡 Learnings
-- Improved hands-on skills in Excel data analysis
-- Practical experience with dashboard design and storytelling
-- Better understanding of business-oriented data visualization
+---
 
-## 👩‍💻 Author
-**Monika Chouhan**
+## 🔗 Repository Link
+[Customer Churn Analysis GitHub Repository](https://github.com/monikaiit/Customer-Churn-Analysis)
+
+---
+
+## 📬 Contact
+For any queries or suggestions, feel free to connect via GitHub.
