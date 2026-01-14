@@ -10,7 +10,7 @@ The goal is to provide **clear business insights** using an **interactive Excel 
 
 > 📍 **Hotel Booking Cancellation Dashboard**
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 ---
 
